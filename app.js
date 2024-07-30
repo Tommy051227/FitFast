@@ -6,10 +6,10 @@ const app = express();
 
 // MySQL Database Connection
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'c237_supermarketapp' // Change to your database name
+  host: 'sql.freedb.tech',
+  user: 'freedb_c237_fitfast',
+  password: 'JFcx&wB8ZuPGxtc',
+  database: 'freedb_fitfast' // Change to your database name
 });
 
 connection.connect((err) => {
